@@ -13,6 +13,10 @@
 		0928D03025C2E0B4004454FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0928D02E25C2E0B4004454FD /* Main.storyboard */; };
 		0928D03225C2E0B6004454FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0928D03125C2E0B6004454FD /* Assets.xcassets */; };
 		0928D03525C2E0B6004454FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0928D03325C2E0B6004454FD /* LaunchScreen.storyboard */; };
+		0928D04225C2E144004454FD /* neko1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0928D04125C2E144004454FD /* neko1.jpg */; };
+		0928D04525C2E167004454FD /* neko2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0928D04425C2E167004454FD /* neko2.jpg */; };
+		0928D04825C2E17E004454FD /* neko3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0928D04725C2E17E004454FD /* neko3.jpg */; };
+		0928D04B25C2E229004454FD /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0928D04A25C2E229004454FD /* ExpansionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0928D03125C2E0B6004454FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0928D03425C2E0B6004454FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0928D03625C2E0B6004454FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0928D04125C2E144004454FD /* neko1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko1.jpg; sourceTree = "<group>"; };
+		0928D04425C2E167004454FD /* neko2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko2.jpg; sourceTree = "<group>"; };
+		0928D04725C2E17E004454FD /* neko3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko3.jpg; sourceTree = "<group>"; };
+		0928D04A25C2E229004454FD /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				0928D02825C2E0B4004454FD /* AppDelegate.swift */,
 				0928D02A25C2E0B4004454FD /* SceneDelegate.swift */,
 				0928D02C25C2E0B4004454FD /* ViewController.swift */,
+				0928D04A25C2E229004454FD /* ExpansionViewController.swift */,
 				0928D02E25C2E0B4004454FD /* Main.storyboard */,
+				0928D04125C2E144004454FD /* neko1.jpg */,
+				0928D04425C2E167004454FD /* neko2.jpg */,
+				0928D04725C2E17E004454FD /* neko3.jpg */,
 				0928D03125C2E0B6004454FD /* Assets.xcassets */,
 				0928D03325C2E0B6004454FD /* LaunchScreen.storyboard */,
 				0928D03625C2E0B6004454FD /* Info.plist */,
@@ -125,7 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0928D03525C2E0B6004454FD /* LaunchScreen.storyboard in Resources */,
+				0928D04225C2E144004454FD /* neko1.jpg in Resources */,
 				0928D03225C2E0B6004454FD /* Assets.xcassets in Resources */,
+				0928D04825C2E17E004454FD /* neko3.jpg in Resources */,
+				0928D04525C2E167004454FD /* neko2.jpg in Resources */,
 				0928D03025C2E0B4004454FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0928D04B25C2E229004454FD /* ExpansionViewController.swift in Sources */,
 				0928D02D25C2E0B4004454FD /* ViewController.swift in Sources */,
 				0928D02925C2E0B4004454FD /* AppDelegate.swift in Sources */,
 				0928D02B25C2E0B4004454FD /* SceneDelegate.swift in Sources */,
